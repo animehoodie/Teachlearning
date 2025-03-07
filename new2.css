@@ -1,0 +1,62 @@
+table, td,th {
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+            .tab{
+                display: inline-table;
+                border-radius: 100px;
+                border-spacing: auto;
+                
+            }
+            .tab2{
+                background-color: aliceblue;
+                border-radius: 15px;
+                border-color: aliceblue;
+            }
+            .syl{
+                background-image: url('image/sem2.jpg');
+                text-align: center;
+                margin: 5px 630px;
+                padding: 20px;
+                border-radius: 50%;
+               
+            }
+           
+            
+                .dropdwn{
+                float: center;
+                overflow: hidden;
+
+            }
+
+            .drop{
+                background: none;
+                border:none;
+
+            }
+            .dropdwn:hover .content{
+                display:block;
+            }
+            .button {
+               background-image: url('image/sem3.jpg');
+               border: 0cqb;
+               color: rgb(14, 16, 10);
+               padding: 20px;
+               text-align: center;
+               text-decoration: none;
+               font-size: 30px;
+               margin: 40px 50px;
+               cursor: pointer;
+               border-radius:37%;
+            }
+            
+            .content{
+                display:none;
+                position: absolute;
+                background-color: none;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(233, 78, 78, 0.2);
+                z-index: 1;
+
+            }
+            

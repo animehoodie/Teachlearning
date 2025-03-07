@@ -1,0 +1,105 @@
+/* Reset default browser styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202222;
+    
+}
+
+/* Header styles */
+header {
+    background-image:url('image/na1.jpg');
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: right;
+   
+}
+
+/* Navigation styles */
+nav {
+  background-image:url('image/bdy.webp');
+    color: #0a4146;
+    text-align: right;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #31a3e6;
+}
+
+/* Content section styles */
+section {
+    padding: 10px;
+    
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+  }
+  .image{
+    width: 50%;
+    height: 40vh;
+    display: right;
+    justify-content: center;
+    align-items: center;
+   padding-left: 100px;
+   
+
+}
+
+  .image img{
+    height: 250px;
+    width: 0cm;
+    border-radius: 50%;
+    
+    box-shadow: 5px 4px 80px 4px #043254;
+
+}
+
+.mySlides {
+    display: none;
+  }
+  
+  .fade {
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
+
+  .imgl{
+    width: 19%;
+    height: 100%;
+    float: left;
+  }
+  
+  

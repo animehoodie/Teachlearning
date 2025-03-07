@@ -1,0 +1,62 @@
+.bk{
+    background-image: url('image/sem2.jpg');
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.sub{
+    background-image: url('image/subject/physic1.jpg');
+    text-align: center; 
+    text-decoration: none;
+    margin: 5px 0px;
+    padding: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+   
+
+table{
+    width: 75%;
+    border: 1px solid #ddd;
+    margin: 70px auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 8px 8px  8px grey;
+    background-color: #ddd;
+    border-spacing: 5px;
+    display: inline-table;
+    border-radius: 0px;
+    
+    
+}
+th,td{
+    border-radius:20px solid #ddd;
+    padding: 13px;
+    border-spacing: 10000px;
+
+}
+th{
+    background-color: #8ec6f4;
+    color: #fff;
+    font-size: 20px;
+}
+tr:hover{
+    background-color: #c2d4e2;
+    box-shadow: 8px 8px 8px grey;
+}
+/*question paper*/
+.qup{
+    background-image: url('image/subject/physic1.jpg');
+    text-align: center; 
+    text-decoration: none;
+    margin: 5px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    color:#ddd;
+}
