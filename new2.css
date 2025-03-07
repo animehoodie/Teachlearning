@@ -14,7 +14,7 @@ table, td,th {
                 border-color: aliceblue;
             }
             .syl{
-                background-image: url('image/sem2.jpg');
+                background-image: url('sem2.jpg');
                 text-align: center;
                 margin: 5px 630px;
                 padding: 20px;
@@ -38,7 +38,7 @@ table, td,th {
                 display:block;
             }
             .button {
-               background-image: url('image/sem3.jpg');
+               background-image: url('sem3.jpg');
                border: 0cqb;
                color: rgb(14, 16, 10);
                padding: 20px;
